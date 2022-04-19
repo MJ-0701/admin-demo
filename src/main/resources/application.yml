@@ -1,4 +1,6 @@
 spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
 
   h2:
     console:
@@ -33,6 +35,7 @@ spring:
 #    url: jdbc:mariadb://localhost:3306/test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true
 #    username: root
 #    password: root
+
 
 server:
   port: 8080

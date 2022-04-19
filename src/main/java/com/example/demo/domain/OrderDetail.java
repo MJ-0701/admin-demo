@@ -1,5 +1,6 @@
 package com.example.demo.domain;
 
+import com.example.demo.domain.base.BaseEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
@@ -15,7 +16,7 @@ import java.time.LocalDateTime;
 @Entity
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-public class OrderDetail extends BaseEntity{
+public class OrderDetail extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

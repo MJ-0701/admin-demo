@@ -1,6 +1,6 @@
-package com.example.demo.domain;
+package com.example.demo.domain.base;
 
-import com.example.demo.domain.listener.Auditable;
+import com.example.demo.domain.base.listener.Auditable;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.LastModifiedBy;

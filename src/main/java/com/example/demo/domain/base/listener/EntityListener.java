@@ -1,4 +1,4 @@
-package com.example.demo.domain.listener;
+package com.example.demo.domain.base.listener;
 
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
